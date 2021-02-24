@@ -1,0 +1,178 @@
+/* HTML Selectors */
+body {
+  font-family: 'Montserrat';
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: bold;
+}
+
+/* Headings */
+.primary-heading {
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+.section-heading {
+  line-height: 1.5;
+  font-size: 3rem;
+}
+
+/* Primary header section */
+#title {
+  background-color: #ff4c68;
+  color: white;
+  text-align: left;
+}
+
+.container-fluid {
+  padding: 3% 15% 7%;
+}
+
+.download-btn {
+  margin: 5% 3% 5% 0;
+}
+
+.tindog-image {
+  width: 18%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 22%;
+}
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: 'Ubuntu';
+  font-weight: bold;
+  font-size: 2.5rem;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+}
+
+/* Features section */
+#features {
+  background-color: #fff;
+  position: relative;
+}
+
+.features {
+  margin: 10% 0;
+}
+
+.feature-title {
+  font-size: 1.5rem;
+}
+
+.features-paragraph {
+  color: #8f8f8f;
+}
+
+.features-icon {
+  color: #ef8172;
+  padding: 4%;
+}
+
+.features-icon:hover {
+  color: #ff4c68;
+}
+
+/* Testimonials section */
+#testimonials {
+  background-color: #ef8172;
+  color: #fff;
+}
+
+.testimonial-h2 {
+  line-height: 1.5;
+  font-size: 3rem;
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 2%;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+/* Press section */
+#press {
+  background-color: #ef8172;
+}
+
+.press-logo {
+  width: 12%;
+  margin: 20px 20px 50px;
+}
+
+/* Pricing section */
+#pricing {
+  padding: 150px;
+}
+
+.pricing-box {
+  padding: 3% 2%;
+}
+
+.price-text {
+  line-height: 1.5;
+  font-size: 3rem;
+}
+
+/* CTA section */
+#cta {
+  background-color: #ff4c68;
+  padding: 5% 15% 0;
+  color: #fff;
+}
+
+.download-btn-ctn {
+  margin-bottom: 2%;
+}
+
+#footer {
+  background-color: #fff;
+}
+
+.container-fluid-footer {
+  padding: 5% 15%;
+}
+
+.footer-paragraph {
+  margin-bottom: 0;
+  color: #8f8f8f;
+}
+
+.icon-footer {
+  padding: 10px;
+  font-size: 1.3rem;
+  margin: 0 5px 10px 5px;
+}
+
+@media (max-width: 1028px) {
+  #title {
+    text-align: center;
+  }
+
+  .tindog-image {
+    position: static;
+    width: 50%;
+    transform: rotate(0);
+  }
+
+  .navbar-nav {
+    text-align: left;
+  }
+}
